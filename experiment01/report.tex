@@ -66,7 +66,7 @@ To produce and verify Lissajous figures using an oscilloscope, a function genera
 \begin{itemize}
 \item Oscilloscope
 \item Two channel function generator
-\item Connectimng wires and probes
+\item Connecting wires and probes
 \item A computer to verify the results on
 \end{itemize}
 \subsection{Theory}
@@ -77,6 +77,7 @@ Their shapes are hence dependent on the many parameters that make each sinusoida
 \item Connections
 \begin{itemize}
 \item Connect the two channels of the oscilloscope with the channels of the function generator, using 4 cables and the oscilloscope probes.
+\item Ensure scaling is 10X both on the probe wires and the oscilloscope.
 \end{itemize}
 \item Device Setup
 \begin{itemize}
@@ -89,7 +90,7 @@ Their shapes are hence dependent on the many parameters that make each sinusoida
 \end{enumerate}
 The captured Lissajous figures are shown in the next segment.
 \subsection{Justification}
-We will be using Python and the Matplotlib and Numpy libraries to verify our experiment. The following code plots out the theoretical Lissajous figures depending on the values of Voltage amplitudes, frequencies, and phase of the two channnels.
+We will be using Python along with Matplotlib and Numpy libraries to verify our experiment's results. The following code plots out the theoretical Lissajous figures depending on the values of Voltage amplitudes, frequencies, and phase of the two channnels.
 \begin{verbatim}
 import numpy as np
 import matplotlib.pyplot as plt
@@ -162,7 +163,7 @@ An oscilloscope's triggering capability lets us capture a one-time event. Trigge
 Burst mode on the Fuction Generator helps us generate the one-time event.
 \subsection{Procedure}
 \begin{enumerate}
-	\item Set up the oscilloscope and the function generator by connecting the wire and the probe.
+	\item Set up the oscilloscope and the function generator by connecting the wire and the probe. Ensure the scaling is 10X on both the probe wires and the oscilloscope.
 	\item Set up the function generator by going to Burst mode, and choosing an appropriate one-time event with a manual trigger.
 	\item On the oscilloscope's Mode Coupling settings, ensure that the right channel is being monitored, and the oscilloscope looks for an increasing Edge. Ensure that the Sweep is Normal and the Coupling is DC.
 	\item Set an appropriate Trigger level on the oscilloscope.

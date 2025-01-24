@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.3)  24 JAN 2025 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.3)  24 JAN 2025 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,14 +426,14 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/a2.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/a2.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/a2.jpg  us
-ed on input line 113.
+ed on input line 114.
 (pdftex.def)             Requested size: 241.84843pt x 181.38031pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/a.jpeg, id=97, 642.4pt x 481.8pt>
 File: /home/gvt1/Work/ECLab2025/experiment01/figs/a.jpeg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/a.jpeg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/a.jpeg  us
-ed on input line 114.
+ed on input line 115.
 (pdftex.def)             Requested size: 193.47578pt x 145.10718pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/a1.jpg, id=98, 1160.335pt x 870.25
 125pt>
@@ -441,7 +441,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/a1.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/a1.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/a1.jpg  us
-ed on input line 115.
+ed on input line 116.
 (pdftex.def)             Requested size: 193.47578pt x 145.09906pt.
 
 
@@ -460,14 +460,14 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/b2.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/b2.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/b2.jpg  us
-ed on input line 119.
+ed on input line 120.
 (pdftex.def)             Requested size: 241.84843pt x 181.38031pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/b.jpg, id=107, 642.4pt x 481.8pt>
 File: /home/gvt1/Work/ECLab2025/experiment01/figs/b.jpg Graphic file (type jpg)
 
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/b.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/b.jpg  use
-d on input line 120.
+d on input line 121.
 (pdftex.def)             Requested size: 193.47578pt x 145.10718pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/b1.jpg, id=108, 1284.8pt x 963.6pt
 >
@@ -475,7 +475,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/b1.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/b1.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/b1.jpg  us
-ed on input line 121.
+ed on input line 122.
 (pdftex.def)             Requested size: 193.47578pt x 145.09248pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/c2.jpg, id=109, 1284.8pt x 963.6pt
 >
@@ -483,7 +483,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/c2.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/c2.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/c2.jpg  us
-ed on input line 125.
+ed on input line 126.
 (pdftex.def)             Requested size: 241.84843pt x 181.38031pt.
 
 
@@ -504,7 +504,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/c.jpg Graphic file (type jpg)
 
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/c.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/c.jpg  use
-d on input line 126.
+d on input line 127.
 (pdftex.def)             Requested size: 193.47578pt x 145.10718pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/c1.jpg, id=115, 1284.8pt x 963.6pt
 >
@@ -512,7 +512,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/c1.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/c1.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/c1.jpg  us
-ed on input line 127.
+ed on input line 128.
 (pdftex.def)             Requested size: 193.47578pt x 145.09248pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/f2.jpg, id=116, 1606.0pt x 1204.5p
 t>
@@ -520,14 +520,14 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/f2.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/f2.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/f2.jpg  us
-ed on input line 131.
+ed on input line 132.
 (pdftex.def)             Requested size: 241.84843pt x 181.38399pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/f.jpg, id=117, 642.4pt x 481.8pt>
 File: /home/gvt1/Work/ECLab2025/experiment01/figs/f.jpg Graphic file (type jpg)
 
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/f.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/f.jpg  use
-d on input line 132.
+d on input line 133.
 (pdftex.def)             Requested size: 193.47578pt x 145.10718pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/f1.jpg, id=118, 1606.0pt x 1204.5p
 t>
@@ -535,7 +535,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/f1.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/f1.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/f1.jpg  us
-ed on input line 133.
+ed on input line 134.
 (pdftex.def)             Requested size: 193.47578pt x 145.10352pt.
 
 
@@ -556,14 +556,14 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/d2.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/d2.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/d2.jpg  us
-ed on input line 137.
+ed on input line 138.
 (pdftex.def)             Requested size: 241.84843pt x 181.38399pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/d.jpg, id=124, 642.4pt x 481.8pt>
 File: /home/gvt1/Work/ECLab2025/experiment01/figs/d.jpg Graphic file (type jpg)
 
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/d.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/d.jpg  use
-d on input line 138.
+d on input line 139.
 (pdftex.def)             Requested size: 193.47578pt x 145.10718pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/d1.jpg, id=125, 1606.0pt x 1204.5p
 t>
@@ -571,7 +571,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/d1.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/d1.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/d1.jpg  us
-ed on input line 139.
+ed on input line 140.
 (pdftex.def)             Requested size: 193.47578pt x 145.10352pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/e2.jpg, id=126, 1606.0pt x 1204.5p
 t>
@@ -579,7 +579,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/e2.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/e2.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/e2.jpg  us
-ed on input line 144.
+ed on input line 145.
 (pdftex.def)             Requested size: 241.84843pt x 181.38399pt.
 
 
@@ -600,7 +600,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/e.jpg Graphic file (type jpg)
 
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/e.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/e.jpg  use
-d on input line 145.
+d on input line 146.
 (pdftex.def)             Requested size: 193.47578pt x 145.10718pt.
 </home/gvt1/Work/ECLab2025/experiment01/figs/e1.jpg, id=132, 1606.0pt x 1204.5p
 t>
@@ -608,7 +608,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/e1.jpg Graphic file (type jpg
 )
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/e1.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/e1.jpg  us
-ed on input line 146.
+ed on input line 147.
 (pdftex.def)             Requested size: 193.47578pt x 145.10352pt.
 
 
@@ -629,7 +629,7 @@ File: /home/gvt1/Work/ECLab2025/experiment01/figs/ote.jpg Graphic file (type jp
 g)
 <use /home/gvt1/Work/ECLab2025/experiment01/figs/ote.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment01/figs/ote.jpg  u
-sed on input line 174.
+sed on input line 175.
 (pdftex.def)             Requested size: 338.58632pt x 223.52121pt.
 
 
@@ -652,11 +652,11 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Here is how much of TeX's memory you used:
  10598 strings out of 473579
  172380 string characters out of 5705599
- 666347 words of memory out of 5000000
+ 667347 words of memory out of 5000000
  33329 multiletter control sequences out of 15000+600000
  563489 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,12n,93p,525b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,93p,525b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt
 /texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texliv
 e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/2024/t
@@ -666,7 +666,7 @@ ype1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm-super/
 sfrm1200.pfb>
-Output written on report.pdf (7 pages, 1927896 bytes).
+Output written on report.pdf (7 pages, 1928359 bytes).
 PDF statistics:
  204 PDF objects out of 1000 (max. 8388607)
  156 compressed objects within 2 object streams
