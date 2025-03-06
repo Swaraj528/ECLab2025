@@ -16,6 +16,7 @@
 % Package to link references
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{float}
 \hypersetup{
  colorlinks=true,
   linkcolor=black,
@@ -181,13 +182,13 @@ H_3(j\omega) = \frac{1}{1 + 6j\omega RC - 5\omega^2 R^2C^2 - j\omega^3 R^3C^3}.
     \begin{itemize}
       \item To cascade our RC ciruit once, connect another series-RC parallel to capacitor. 
       \item Move the oscilloscope probes from measuring across the initial capacitor to measuring across the new capacitor. 
-      \item To cascade once more, repeat the previous steps over the second capacitor. 
+      \item To cascade once more, repeat the previous steps over the second capacitor 
     \end{itemize}
   \item Device setup and main process
     \begin{itemize}
       \item Set the frequency on the function generator to the lowest possible value, and amplitude as $1$V. Ensure its output is a sine wave.
       \item Utilize the cursor functions in the oscilloscope, and set them on the cloest crests in the two waves. 
-      \item Measure the $\delta X$ value from the cursors, which gives you the phase difference when multiplied by the frequency. Measure the peak voltages, which will give you amplitude ratio. 
+      \item Measure the $\Delta X$ value from the cursors, which gives you the phase difference when multiplied by the frequency. Measure the peak voltages, which will give you amplitude ratio. 
       \item Increase the frequency and repeat the process, until you reach the highest possible frequency on the function generator. 
     \end{itemize}
   \item Plotting
@@ -198,32 +199,34 @@ H_3(j\omega) = \frac{1}{1 + 6j\omega RC - 5\omega^2 R^2C^2 - j\omega^3 R^3C^3}.
     \end{itemize}
   \item Repeat the main process and plotting for the 2-stage and 3-stage circuits.
 \end{enumerate}
+In our experiment, we used C=$0.585\mu F$ and R=$10k\Omega$ for 1-stage and C=$220nF$ and R=$10k\Omega$ for 2 and 3-stage.
 \section{Plotting and Justification}
-We will be using Python along with Matplotlib and Numpy libraries to verify our experiment's results. The following are manual and verification plots of the frequency-amplitude and frequency-phase responses of 1-stage, 2-stage, and 3-stage RC circuit to the input sine wave. Please note that the second hand-plotted graph in each section is a plot between the phase and $log(\omega)$
+We will be using Python along with Matplotlib and Numpy libraries to verify our experiment's results. The following are manual and verification plots of the frequency-amplitude and frequency-phase responses of 1-stage, 2-stage, and 3-stage RC circuit to the input sine wave. 
 \subsection{1-stage RC filter}
-\begin{figure}[!ht]
+\begin{figure}[H]
 \centering
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/fit.png}
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/phase_1.png}
-  \includegraphics[width=0.7\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphH1.jpg}
+  \includegraphics[width=0.6\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphH1.jpg}
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphP1.jpg}
 \end{figure}
 \subsection{2-stage RC filter}
-\begin{figure}[!ht]
+\begin{figure}[H]
 \centering
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/fit_2.png}
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/phase_2.png}
-  \includegraphics[width=0.7\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphH2.jpg}
+  \includegraphics[width=0.6\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphH2.jpg}
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphP2.jpg}
 \end{figure}
-\subsection{2-stage RC filter}
-\begin{figure}[!ht]
+\subsection{3-stage RC filter}
+\begin{figure}[H]
 \centering
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/fit_3.png}
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/phase_3.png}
-  \includegraphics[width=0.7\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphH3.jpg}
+  \includegraphics[width=0.6\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphH3.jpg}
   \includegraphics[width=0.4\columnwidth]{/home/gvt1/Work/ECLab2025/experiment03/files/GraphP3.jpg}
 \end{figure}
+Please note that the second hand-plotted graph in each section is a plot between the phase and $log(\omega)$
 \section{Conclusion}
 In this experiment, we analyzed the frequency response of single-stage, two-stage, and three-stage RC low-pass filters. By measuring amplitude attenuation and phase shift across different frequencies, we observed that:  
 

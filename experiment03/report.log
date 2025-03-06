@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.3)  21 FEB 2025 21:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.3)  21 FEB 2025 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -674,7 +674,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip66
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+(/opt/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count322
+\float@exts=\toks41
+\float@box=\box66
+\@float@everytoks=\toks42
+\@floatcapt=\box67
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 
 (/opt/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/opt/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -683,43 +691,41 @@ Package: expl3 2024-09-10 L3 programming layer (loader)
 
 (/opt/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count322
-\l__pdf_internal_box=\box66
+\l__color_backend_stack_int=\count323
+\l__pdf_internal_box=\box68
 ))
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count323
-\l__lipsum_a_int=\count324
-\l__lipsum_b_int=\count325
+\g__lipsum_par_int=\count324
+\l__lipsum_a_int=\count325
+\l__lipsum_b_int=\count326
 
 (/opt/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/opt/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
-\c@tracingmulticols=\count326
-\mult@box=\box67
+\c@tracingmulticols=\count327
+\mult@box=\box69
 \multicol@leftmargin=\dimen299
-\c@unbalance=\count327
-\c@collectmore=\count328
-\doublecol@number=\count329
-\multicoltolerance=\count330
-\multicolpretolerance=\count331
+\c@unbalance=\count328
+\c@collectmore=\count329
+\doublecol@number=\count330
+\multicoltolerance=\count331
+\multicolpretolerance=\count332
 \full@width=\dimen300
 \page@free=\dimen301
 \premulticols=\dimen302
 \postmulticols=\dimen303
 \multicolsep=\skip67
 \multicolbaselineskip=\skip68
-\partial@page=\box68
-\last@line=\box69
-\mc@boxedresult=\box70
+\partial@page=\box70
+\last@line=\box71
+\mc@boxedresult=\box72
 \maxbalancingoverflow=\dimen304
-\mult@rightbox=\box71
-\mult@grightbox=\box72
-\mult@firstbox=\box73
-\mult@gfirstbox=\box74
-\@tempa=\box75
-\@tempa=\box76
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@firstbox=\box75
+\mult@gfirstbox=\box76
 \@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
@@ -754,53 +760,55 @@ Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
 \@tempa=\box108
 \@tempa=\box109
 \@tempa=\box110
-\c@minrows=\count332
-\c@columnbadness=\count333
-\c@finalcolumnbadness=\count334
+\@tempa=\box111
+\@tempa=\box112
+\c@minrows=\count333
+\c@columnbadness=\count334
+\c@finalcolumnbadness=\count335
 \last@try=\dimen305
 \multicolovershoot=\dimen306
 \multicolundershoot=\dimen307
-\mult@nat@firstbox=\box111
-\colbreak@box=\box112
-\mc@col@check@num=\count335
+\mult@nat@firstbox=\box113
+\colbreak@box=\box114
+\mc@col@check@num=\count336
 )
 (/opt/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (/opt/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
+\scratchcounter=\count337
 \scratchdimen=\dimen308
-\scratchbox=\box113
-\nofMPsegments=\count337
-\nofMParguments=\count338
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count339
+\scratchbox=\box115
+\nofMPsegments=\count338
+\nofMParguments=\count339
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count340
 \MPscratchDim=\dimen309
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
-\everyMPtoPDFconversion=\toks42
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
+\everyMPtoPDFconversion=\toks44
 ) (/opt/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -810,7 +818,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (./report.out) (./report.out)
 \@outlinefile=\write4
@@ -841,7 +849,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.172 \section
+              {Procedure}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.172 \section
+              {Procedure}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.172 \section
+              {Procedure}]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -858,7 +884,7 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/fit.png Graphic file (type p
 ng)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/fit.png>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/fit.png  
-used on input line 206.
+used on input line 208.
 (pdftex.def)             Requested size: 193.47578pt x 145.10777pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/phase_1.png, id=90, 462.528pt x 3
 46.896pt>
@@ -866,7 +892,7 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/phase_1.png Graphic file (ty
 pe png)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/phase_1.png>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/phase_1.p
-ng  used on input line 207.
+ng  used on input line 209.
 (pdftex.def)             Requested size: 193.47578pt x 145.10777pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/GraphH1.jpg, id=91, 3420.78pt x 2
 653.915pt>
@@ -874,15 +900,15 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/GraphH1.jpg Graphic file (ty
 pe jpg)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/GraphH1.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/GraphH1.j
-pg  used on input line 208.
-(pdftex.def)             Requested size: 338.58632pt x 262.65335pt.
+pg  used on input line 210.
+(pdftex.def)             Requested size: 290.22107pt x 225.15459pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/GraphP1.jpg, id=92, 2923.92375pt 
 x 2543.5025pt>
 File: /home/gvt1/Work/ECLab2025/experiment03/files/GraphP1.jpg Graphic file (ty
 pe jpg)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/GraphP1.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/GraphP1.j
-pg  used on input line 209.
+pg  used on input line 211.
 (pdftex.def)             Requested size: 193.47578pt x 168.28308pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/fit_2.png, id=93, 462.528pt x 346
 .896pt>
@@ -890,7 +916,7 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/fit_2.png Graphic file (type
  png)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/fit_2.png>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/fit_2.png
-  used on input line 214.
+  used on input line 216.
 (pdftex.def)             Requested size: 193.47578pt x 145.10777pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/phase_2.png, id=94, 462.528pt x 3
 46.896pt>
@@ -898,7 +924,7 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/phase_2.png Graphic file (ty
 pe png)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/phase_2.png>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/phase_2.p
-ng  used on input line 215.
+ng  used on input line 217.
 (pdftex.def)             Requested size: 193.47578pt x 145.10777pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/GraphH2.jpg, id=95, 3574.35374pt 
 x 2769.34625pt>
@@ -906,15 +932,15 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/GraphH2.jpg Graphic file (ty
 pe jpg)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/GraphH2.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/GraphH2.j
-pg  used on input line 216.
-(pdftex.def)             Requested size: 338.58632pt x 262.33pt.
+pg  used on input line 218.
+(pdftex.def)             Requested size: 290.22107pt x 224.84825pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/GraphP2.jpg, id=96, 3611.4925pt x
  2502.34875pt>
 File: /home/gvt1/Work/ECLab2025/experiment03/files/GraphP2.jpg Graphic file (ty
 pe jpg)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/GraphP2.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/GraphP2.j
-pg  used on input line 217.
+pg  used on input line 219.
 (pdftex.def)             Requested size: 193.47578pt x 134.02133pt.
 
 
@@ -935,7 +961,7 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/fit_3.png Graphic file (type
  png)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/fit_3.png>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/fit_3.png
-  used on input line 222.
+  used on input line 224.
 (pdftex.def)             Requested size: 193.47578pt x 145.10777pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/phase_3.png, id=104, 462.528pt x 
 346.896pt>
@@ -943,7 +969,7 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/phase_3.png Graphic file (ty
 pe png)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/phase_3.png>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/phase_3.p
-ng  used on input line 223.
+ng  used on input line 225.
 (pdftex.def)             Requested size: 193.47578pt x 145.10777pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/GraphH3.jpg, id=105, 2898.83pt x 
 2772.3575pt>
@@ -951,15 +977,15 @@ File: /home/gvt1/Work/ECLab2025/experiment03/files/GraphH3.jpg Graphic file (ty
 pe jpg)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/GraphH3.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/GraphH3.j
-pg  used on input line 224.
-(pdftex.def)             Requested size: 338.58632pt x 323.78497pt.
+pg  used on input line 226.
+(pdftex.def)             Requested size: 290.22107pt x 277.54811pt.
 </home/gvt1/Work/ECLab2025/experiment03/files/GraphP3.jpg, id=106, 3617.515pt x
  2430.07875pt>
 File: /home/gvt1/Work/ECLab2025/experiment03/files/GraphP3.jpg Graphic file (ty
 pe jpg)
 <use /home/gvt1/Work/ECLab2025/experiment03/files/GraphP3.jpg>
 Package pdftex.def Info: /home/gvt1/Work/ECLab2025/experiment03/files/GraphP3.j
-pg  used on input line 225.
+pg  used on input line 227.
 (pdftex.def)             Requested size: 193.47578pt x 129.96529pt.
 
 
@@ -1003,16 +1029,16 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: F6683442B297666EDA30B170AEEBA15A;1515.
+(rerunfilecheck)             Checksum: 82988A4EF70B58EF9A61E983CAD95C19;1515.
  ) 
 Here is how much of TeX's memory you used:
- 39706 strings out of 473579
- 954585 string characters out of 5705599
- 1660754 words of memory out of 5000000
- 62153 multiletter control sequences out of 15000+600000
+ 39775 strings out of 473579
+ 955631 string characters out of 5705599
+ 1663153 words of memory out of 5000000
+ 62218 multiletter control sequences out of 15000+600000
  565971 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,121p,525b,973s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,121p,525b,982s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt
 /texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/texliv
 e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/2024/t
@@ -1021,7 +1047,7 @@ t/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/texlive/2024/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/cm
 -super/sfrm1200.pfb>
-Output written on report.pdf (8 pages, 18257630 bytes).
+Output written on report.pdf (8 pages, 18258925 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  123 compressed objects within 2 object streams
