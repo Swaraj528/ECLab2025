@@ -1,0 +1,110 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[super,square]{natbib}
+% Package to change margin size
+\usepackage{anysize}
+\usepackage{amsmath}
+\marginsize{2cm}{2cm}{1cm}{2cm}
+% Package to make headers
+\usepackage{fancyhdr}
+\usepackage{circuitikz}
+\renewcommand{\headrulewidth}{0pt}
+\usepackage{soul}
+\usepackage[section]{placeins}
+% Colors for the references links
+\usepackage[dvipsnames]{xcolor}
+% Package to link references
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\hypersetup{
+ colorlinks=true,
+  linkcolor=black,
+  citecolor=CadetBlue,  
+  filecolor=CadetBlue,      
+  urlcolor=CadetBlue,
+}
+% Package for lorem ipsum
+\usepackage{lipsum}
+% Package for multicolumn
+\usepackage{multicol}
+% Package for removing paragraph identations
+\usepackage{parskip}
+\setlength\columnsep{18pt}
+% Sets bastract
+\renewenvironment{abstract}
+ {\par\noindent\textbf{\abstractname}\ \ignorespaces \\}
+ {\par\noindent\medskip}
+
+
+
+ 
+\begin{document}
+% Makes header
+\pagestyle{fancy}
+\thispagestyle{empty}
+\fancyhead[R]{\textit{EE1200}}
+\fancyhead[L]{}
+% Makes footnotes with an asterisk
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+\begin{center}
+\Large{\textbf{Experiment 06}}
+\vspace{0.4cm}
+\normalsize
+\\ Aditya Tripathy - ee24btech11001, Durgi Swaraj Sharma - ee24btech11018\\
+\medskip
+\normalsize
+\end{center}
+{\color{gray}\hrule}
+\vspace{0.4cm}
+\begin{abstract}
+In Experiment-06, we used a Op-amps to make Sallen-Key low pass filter, a Sallen-key high pass filter, and a band pass filter by cascading them. We then compared and verified them with the theoretical results. 
+\end{abstract}
+{\color{gray}\hrule}
+\medskip
+\section{Objective}
+\begin{itemize}
+	\item To design and implement a bandpass filter using separate Sallen-Key Low Pass Filter (LPF) and High Pass Filter (HPF).
+	\item To analyze and compare the frequency response of LPF, HPF, and the final bandpass filter.
+	\item To plot the magnitude response (gain vs. frequency) of all three filter.
+\end{itemize}
+\section{Apparatus}
+\begin{itemize}
+	\item Op-amp (we used the IC LM358 as it has 2 Op-amps built-in)
+	\item Resistors [$R = 22k\Omega, R_1 = 5.6k\Omega$]
+	\item Capacitors (2 per filter, 4 for cascade) [$C = 220nF$]
+	\item Oscilloscope
+	\item Function generator
+	\item DC power supply (to power the IC)
+	\item Connecting wires and probes, breadboard
+\end{itemize}
+\section{Procedure}
+\begin{enumerate}
+	\item IC
+		\begin{itemize}
+			\item Use the datasheet of your Op-amp to know the function of its pins and specifications.
+			\item Ensure the supply voltages $V_+$ and $V_-$ being provided are within the recommended range in the datasheet, before you turn them on (We used $+15V$ and $-15V$).
+		\end{itemize}
+	\item Prepating the Circuits (same procedure for all three circuits)
+		\begin{itemize}
+			\item Make the circuits as shown in the theory section using the right pins of the Op-amp, resistors, and connecting wires. 
+			\item Connect $V_{out}$ to ground through a resistor. 
+			\item Apply the sine wave to $V_{in}$ from the function generator. 
+		\end{itemize}
+	\item Oscilloscope: Use the probes to measure input and output voltages, $V_{in}$ and $V_{out}$. Set up the Measure function to measure the $V_{pp}$s of the two signals.
+	\item Taking Measurements
+		\begin{itemize}
+			\item Start with a small frequency of the input sine wave. Note down the $V_{pp}$ values on the oscilloscope. 
+			\item Gradually increase the frequency of the input sine wave.
+			\item In intervals, note down the $V_{pp}$s being measured on the oscilloscope and the frequencies they occur at. The ratio of the $V_{pp}$s is the voltage gain, and can be used to plot this data when verifying.
+			\item As the frequency increases, you might need to make bigger jumps to see meaningful changes in the data.
+			\item In high-pass filters, at higher frequencies the $V_{out}$ saturates to the value of $V_{in}$, so one may stop measuring after that.
+			\item Continue measuring until enough data is obtained for verification.
+		\end{itemize}
+	\item Cascading to obtain a Band Pass Filter.
+		\begin{itemize}
+			\item Using the prepared low pass and high pass filter, we design a band pass filter by cascading them.
+			\item Connect the $V_{out}$ of the low pass filter to the $V_{in}$ of the high pass filter. Remove the previous input signal from the $V_{int}$ of the highpass filter. 
+		\end{itemize}
+	\item Plotting: Use a plotting software to plot the measured data with the theoretical response for the sake of verification.
+\end{enumerate}
+\end{document}
